@@ -4,8 +4,8 @@ import React, { Component } from 'react';
 class Footer extends Component {
   render(){
     return(
-        <div id="footer">
-          <p>&copy; Puget Sound Investments</p>
+        <div className="footerDiv">
+          &copy; Puget Sound Investments
         </div>
     )
   }

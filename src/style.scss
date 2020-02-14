@@ -1,65 +1,65 @@
-ul {
-  list-style-type: none;
-  padding-right: 0;
-  display: inline;
-  margin: 0;
-}
-
-li {
-  text-align: center;
-  display: inline;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-h1 {
-  text-align: center;
-  border: solid;
-  background-color: bisque;
-}
-
 main {
-  background-color: grey;
-}
-
-footer {
-  border-top: solid;
-  margin-top: 100px;
-  text-align: center;
+  width: 100%;
+  height: fit-content;
 }
 
 body {
-  width: auto;
+  background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('./assets/pugetSound.jpg');  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.clients ul li{
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+.title {
+  font-size: 80px;
   text-align: center;
+  margin-top: 15%;
+  color: #A9A9A9;
+  text-shadow: 2px 2px 8px gray;
 }
 
-#navbar {
-  width: 100%;
-  float: left;
-  margin: 0 0 3em 0;
-  padding: 0;
+
+.navigationBar {
+  text-align: center;
+  margin: 20px 0 0 ;
+  padding: 10px 0;
+  border: 5px, 5px, 5px, 5px;
+  border-color: #A9A9A9;
+}
+
+.navigationBar,
+ ul{
   list-style: none;
-  background-color: #f2f2f2;
-  border-bottom: 1px solid #ccc;
-  border-top: 1px solid #ccc;
+  margin: 0 2px;
+  padding: 0;
 }
 
-#navbar .link {
-  float: left;
-  display: block;
-  padding: 8px 15px 20px;
+.navigationBar li{
+  display: inline-block;
+  padding: 8px 8px;
+}
+
+.navigationBar, 
+.a {
+  font-weight: normal;
   text-decoration: none;
-  font-weight: bold;
-  color: #069;
-  border-right: 1px solid #ccc;
+  margin-top: 5%;
+  padding: 10px 10px;
+  font-size: 30px;
+  color: #A9A9A9;
+  margin-bottom: 15%;
 }
 
-img.center {
+.footer {
+  border-top: solid;
+  border-color: #A9A9A9;
   text-align: center;
+  color: #A9A9A9;
+}
+
+.footer, .footerDiv {
+  border-top: solid;
+  border-color: #A9A9A9;
+  color: #A9A9A9;
+  text-align: center;
+  // height: 50px;
 }

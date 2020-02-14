@@ -7,11 +7,11 @@ class NavBar extends Component {
     return(
       <>
         <ul>
-          <li><NavLink to='/'>Home</NavLink></li>
-          <li><NavLink to='/aboutUs'>About us</NavLink></li>
-          <li><NavLink to='/house'>Houses</NavLink></li>
-          <li><NavLink to='/investments'>Invest</NavLink></li>
-          <li><NavLink to="/contactUs">Contact Us</NavLink></li>
+          <NavLink className="a" to='/'>Home</NavLink>
+          <NavLink className="a" to='/aboutUs'>About</NavLink>
+          <NavLink className="a" to='/house'>Houses</NavLink>
+          <NavLink className="a" to='/investments'>Invest</NavLink>
+          <NavLink className="a" to="/contactUs">Contact Us</NavLink>
         </ul>
       </>
     )

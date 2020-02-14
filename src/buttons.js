@@ -4,14 +4,22 @@ import React, { Component } from 'react';
 
 class Button extends Component {
   render(){
-    const buttonText = { text: 'click me'};
+    const fieldText = { fn: 'First Name:', ln: 'Last Name:', email: 'email:', information: 'Anything else?'};
 
     return (
+    <>
       <div>
-        <label className="label" htmlFor="name">Enter Name:</label>
+      <label className="form" htmlFor="name"> {fieldText.fn} </label>
         <input id="name" type="text" />
-        <button style={{ backgroundColor: 'red', color: 'white'}}>{buttonText.text}</button>
+      <label className="form" htmlFor="name">{fieldText.ln}</label>
+        <input id="name" type="text" />
+      <label className="form" htmlFor="name">{fieldText.email}</label>
+        <input id="name" type="text" />
+      <label className="form" htmlFor="name">{fieldText.information}</label>
+        <input id="name" type="text" />
       </div>
+      <button style={{ backgroundColor: 'red', color: 'white'}}>Submit</button> 
+    </>
     )
   };
 }
